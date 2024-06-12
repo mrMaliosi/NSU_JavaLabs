@@ -1,0 +1,8 @@
+accessoryStorageSize=100
+bodyStorageSize=100
+carStorageSize=100
+engineStorageSize=100
+accessorySuppliers=5
+workers=10
+dealers=20
+logSale=true

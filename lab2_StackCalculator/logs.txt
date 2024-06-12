@@ -1,0 +1,182 @@
+11:00:19 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+11:00:19 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+11:01:42 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+11:01:42 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+11:02:36 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+11:02:36 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+11:02:42 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+11:02:42 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+11:03:14 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+11:03:14 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+11:03:24 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: DEFINE
+11:03:24 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingDEFINE.
+11:03:27 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+11:03:27 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+11:03:34 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+11:03:34 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPRINT.
+11:05:24 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+11:05:24 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+11:06:56 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+11:06:56 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+11:06:59 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: null
+	at java.base/java.util.LinkedList.getFirst(LinkedList.java:255) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.context.ExecutionContext.getCommandName(ExecutionContext.java:32) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:34) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+11:06:59 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Calculator has ended his work.
+21:11:00 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+21:11:00 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+21:11:10 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:11:10 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:11:13 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+21:11:13 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPRINT.
+21:11:19 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: DEFINE
+21:11:19 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingDEFINE.
+21:11:24 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:11:24 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:11:28 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+21:11:28 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPRINT.
+21:11:39 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:11:39 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.PushException: Wrong number of arguments in command PUSH.
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Push.execute(Push.java:20) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:11:44 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+21:11:44 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPRINT.
+21:12:00 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: +
+21:12:00 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executing+.
+21:12:05 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+21:12:05 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPRINT.
+21:12:25 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: +
+21:12:25 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.EmptyStackException: null
+	at ru.nsu.ccfit.malinovskii.context.ExecutionContext.pop(ExecutionContext.java:23) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Plus.execute(Plus.java:10) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:12:30 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+21:12:30 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.PrintException: Nothing to print!
+
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Print.execute(Print.java:11) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:12:41 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PRINT
+21:12:41 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.PrintException: Nothing to print!
+
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Print.execute(Print.java:11) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:15:45 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: per
+21:15:45 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.CommandNotFoundException: Command not found!
+
+	at ru.nsu.ccfit.malinovskii.command.factory.CommandFactory.createCommand(CommandFactory.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:35) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:16:00 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: POP
+21:16:00 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.EmptyStackException: null
+	at ru.nsu.ccfit.malinovskii.context.ExecutionContext.pop(ExecutionContext.java:23) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Pop.execute(Pop.java:9) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:16:06 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:16:06 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:16:07 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: /
+21:16:07 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.DivisionException: Division by zero!
+
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Div.execute(Div.java:12) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:16:23 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:16:23 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:16:23 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:16:27 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+21:16:27 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+21:16:33 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:16:33 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:16:36 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:16:36 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:16:37 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: /
+21:16:37 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.DivisionException: Division by zero!
+
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Div.execute(Div.java:12) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:17:41 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:17:41 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:17:41 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:17:43 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Starting to configure the calculator...
+21:17:43 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - DONE.
+21:17:47 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: pr
+21:17:47 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.CommandNotFoundException: Command not found!
+
+	at ru.nsu.ccfit.malinovskii.command.factory.CommandFactory.createCommand(CommandFactory.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:35) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:17:51 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:17:51 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:17:54 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: PUSH
+21:17:54 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - The end of executingPUSH.
+21:17:55 INFO  ru.nsu.ccfit.malinovskii.stackcalculator.Main - Executing command: /
+21:17:55 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+ru.nsu.ccfit.malinovskii.exceptions.DivisionException: Division by zero!
+
+	at ru.nsu.ccfit.malinovskii.calculatorcommands.Div.execute(Div.java:12) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:36) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:18:33 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:18:33 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]
+21:18:33 ERROR ru.nsu.ccfit.malinovskii.stackcalculator.Main - Exception: 
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at ru.nsu.ccfit.malinovskii.parser.CommandParser.NextCommand(CommandParser.java:21) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.StackCalculator.calculate(StackCalculator.java:33) ~[main/:?]
+	at ru.nsu.ccfit.malinovskii.stackcalculator.Main.main(Main.java:36) [main/:?]

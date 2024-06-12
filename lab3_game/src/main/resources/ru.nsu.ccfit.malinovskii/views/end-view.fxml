@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.ccfit.malinovskii.Controllers.EndController">
+   <children>
+      <Button fx:id="exitButton" layoutX="426.0" layoutY="331.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="151.0" text="Exit" />
+      <Button fx:id="menuButton" layoutX="217.0" layoutY="200.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="197.0" text="To main menu" />
+      <Label layoutX="128.0" layoutY="64.0" text="Nickname:" textFill="#ff9d00">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="175.0" layoutY="117.0" text="Score:" textFill="#ff8400">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nicknameLabel" layoutX="253.0" layoutY="64.0" prefHeight="35.0" prefWidth="197.0" textFill="#ff0808">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="253.0" layoutY="117.0" prefHeight="35.0" prefWidth="197.0" textFill="#ff0808">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>

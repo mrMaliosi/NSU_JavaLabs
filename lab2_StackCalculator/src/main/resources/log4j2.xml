@@ -1,0 +1,19 @@
+<Configuration>
+    <Appenders>
+        <File name="file" fileName="logs.txt">
+            <PatternLayout pattern="%d{HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </File>
+        <Console name="console">
+            <PatternLayout pattern="%d{HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="ALL">
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="console"/>
+        </Root>
+        <Logger name="ru.nsu.ccfit.malinovskii.stackcalculator" level="INFO" additivity="false">
+            <AppenderRef ref="file"/>
+        </Logger>
+    </Loggers>
+</Configuration>

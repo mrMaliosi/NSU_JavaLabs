@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/MessageBuilder/MessageBuilder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/MessageReader/MessageReader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/AbstractException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/CommandException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/CommandNotFoundException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/DivisionException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/EmptyStackException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/PrintException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/exceptions/PushException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/messenger/Server.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/messenger/ServerSomething.java" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.ccfit.malinovskii.Controllers.MenuController">
+   <children>
+      <Button fx:id="startButton" layoutX="223.0" layoutY="112.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="155.0" text="Start" />
+      <Button fx:id="scoreButton" layoutX="223.0" layoutY="161.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="155.0" text="Score Table" />
+      <Button fx:id="exitButton" layoutX="223.0" layoutY="209.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="155.0" text="Exit" />
+      <Label layoutX="274.0" layoutY="70.0" text="The game" />
+   </children>
+</AnchorPane>
