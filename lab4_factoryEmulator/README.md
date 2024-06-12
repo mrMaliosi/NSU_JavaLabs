@@ -46,11 +46,13 @@ ThreadPool).
 7. Конфигурационный файл должен предоставлять настройки для задания
 вместимости всех складов и количестве всех типов потоков. Примерный список
 параметров в конфигурационном файле (просьба использовать свои имена):
-StorageBodySize=100
-StorageMotorSize=100
-StorageAccessorySize=100
-StorageAutoSize=100
-AccessorySuppliers=5
-Workers=10
-Dealers=20
-LogSale=true
+ ```properties
+   StorageBodySize=100
+   StorageMotorSize=100
+   StorageAccessorySize=100
+   StorageAutoSize=100
+   AccessorySuppliers=5
+   Workers=10
+   Dealers=20
+   LogSale=true
+   ```
